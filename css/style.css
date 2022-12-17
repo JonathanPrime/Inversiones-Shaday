@@ -152,6 +152,24 @@ html::-webkit-scrollbar-thumb {
   background: var(--black) !important;
 }
 
+.btn-cotizar {
+  display: inline-block !important;
+  margin-top: 1rem !important;
+  font-family: 'Montserrat-Bold';
+  cursor: pointer !important;
+  color: var(--white) !important;
+  border: 0.2rem solid var(--white) !important;
+  background: no-repeat !important;
+  font-size: 1.7rem !important;
+  border-radius: 1rem !important;
+  padding: 1rem 3rem !important;
+}
+
+.btn-cotizar:hover {
+  color: var(--dark) !important;
+  background: var(--white) !important;
+}
+
 .header {
   z-index: 1000;
   padding: 1.5rem 1rem;
@@ -247,7 +265,7 @@ html::-webkit-scrollbar-thumb {
   align-items: center;
   gap: 3.5rem;
   z-index: 1;
-  background: url(../images/banner.png) no-repeat;
+  background: url(../images/banner-temp.webp) no-repeat;
   background-size: cover;
   background-position: center;
   justify-items: center;
@@ -767,13 +785,12 @@ home-img {
   font-family: 'Montserrat-Bold';
   font-size: 4rem;
   margin-top: -3.5rem;
-  padding-left: 6rem;
   color: var(--white);
 }
 
 .heading .script-review {
   font-family: 'TheNautiGal-rob';
-  font-size: 10rem;
+  font-size: 6rem;
   color: var(--black);
 }
 
@@ -795,6 +812,7 @@ home-img {
 .reviews .box-container {
   display: -ms-grid;
   display: grid;
+  justify-items: center;
   -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 2rem;
@@ -1759,7 +1777,8 @@ input.whats-input[type=text]:focus {
   }
 
   .heading .reviews-title {
-    font-size: 4rem;
+    font-size: 2.8rem;
+    margin-top: -2.5rem;
   }
 
   .own-script {
