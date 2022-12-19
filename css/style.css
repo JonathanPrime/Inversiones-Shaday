@@ -265,7 +265,7 @@ html::-webkit-scrollbar-thumb {
   align-items: center;
   gap: 3.5rem;
   z-index: 1;
-  background: url(../images/banner-temp.webp) no-repeat;
+  background: url(../images/banner.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   justify-items: center;
@@ -323,7 +323,7 @@ home-img {
 }
 
 .service {
-  background: var(--black);
+  background: url(../images/vectores/waves.svg) no-repeat, var(--black);
   background-size: cover;
   background-position: center;
   padding: 2rem 9% !important;
@@ -366,7 +366,7 @@ home-img {
   padding: 1rem 0;
   margin-top: -5rem;
   font-size: 6rem;
-  color: var(--palet-1);
+  color: var(--palet-2);
   font-family: 'TheNautiGal-rob';
 }
 
@@ -1717,27 +1717,6 @@ input.whats-input[type=text]:focus {
   .home-img {
     display: flex;
     justify-content: center;
-  }
-
-  .home {
-    background: none;
-    grid-template-columns: repeat(auto-fit, minmax(22rem, auto));
-  }
-
-  .home-1 {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    gap: 3.5rem;
-    z-index: 1;
-    background: url(../images/banner.png) no-repeat;
-    background-size: cover;
-    flex-wrap: wrap;
-    background-position: center;
-    justify-items: center;
-    flex-direction: row;
-    justify-content: space-evenly;
   }
 
   .home .content h3 {
