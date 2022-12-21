@@ -318,7 +318,7 @@ $('#customers-testimonials').owlCarousel({
   }
 });
 
-$('.owl-filter-class').on('click', '.item', function () {
+$('.owl-filter-class').on('click', '.select_item', function () {
   var $item = $(this);
   var filter = $item.data('owl-filter')
   owl.owlcarousel2_filter(filter);

@@ -224,7 +224,7 @@ html::-webkit-scrollbar-thumb {
   display: none;
   font-size: 2.5rem;
   cursor: pointer;
-  color: var(--white);
+  color: var(--palet-1);
 }
 
 .shop {
@@ -388,7 +388,7 @@ html::-webkit-scrollbar-thumb {
 } */
 
 .img-3-slideshow {
-  background-image: url('../images/banner/banner-3.jpg');
+  background-image: url('../images/banner/banner-2.jpg');
   height: 100vh;
   background-size: cover;
   background-position: left;
