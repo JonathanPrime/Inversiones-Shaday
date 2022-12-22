@@ -90,7 +90,7 @@ section {
 .heading .sub-menu {
   text-align: center;
   font-family: 'TheNautiGal-rob';
-  font-size: 6.5rem;
+  font-size: 6.3rem;
   margin-top: -2rem;
   color: var(--white);
 
@@ -530,7 +530,13 @@ html::-webkit-scrollbar-thumb {
 
 .img-financial {
   width: auto;
-  height: 500px;
+  height: auto;
+}
+
+.img-send {
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .financial-box .box {
@@ -1861,6 +1867,12 @@ input.whats-input[type=text]:focus {
 }
 
 @media (max-width: 768px) {
+  .img-send {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+  
   .footer {
     background-size: contain;
     background-position-x: center;
