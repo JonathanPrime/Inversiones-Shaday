@@ -526,6 +526,7 @@ html::-webkit-scrollbar-thumb {
   -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 2rem;
+  justify-items: center;
 }
 
 .img-financial {
@@ -533,10 +534,23 @@ html::-webkit-scrollbar-thumb {
   height: auto;
 }
 
+.img-service_dom {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
 .img-send {
   width: auto;
   height: auto;
   object-fit: contain;
+}
+
+.img-service {
+  width: max-content;
+  height: max-content;
+  text-align: center;
+  object-fit: scale-down;
 }
 
 .financial-box .box {
@@ -1048,25 +1062,25 @@ html::-webkit-scrollbar-thumb {
 /* end own about */
 
 .reviews {
-  background: var(--palet-1) url(../images/vectores/patron-2.svg) repeat;
+  background: url(../images/vectores/waves.svg) no-repeat, var(--black);
   background-size: cover;
   background-position: center;
-  padding: 2rem 9% !important;
+  padding: 0rem 9% !important;
 }
 
 .heading .reviews-title {
-  font-family: 'Montserrat-Bold';
-  font-size: 4rem;
+  font-family: 'Montserrat-Regular';
+  font-size: 5rem;
   margin-top: -1.5rem;
   color: var(--white);
 }
 
 .heading .script-review {
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat-Bold';
   font-size: 3.2rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-transform: uppercase;
-  color: var(--black);
+  color: var(--palet-2);
 }
 
 .heading .contact-title {
@@ -1872,6 +1886,12 @@ input.whats-input[type=text]:focus {
     height: auto;
     object-fit: contain;
   }
+
+  .img-service {
+    width: auto;
+    height: auto;
+    object-fit:scale-down;
+  }
   
   .footer {
     background-size: contain;
@@ -2046,7 +2066,7 @@ input.whats-input[type=text]:focus {
   }
 
   .heading .reviews-title {
-    font-size: 2.8rem;
+    font-size: 4.5rem;
     margin-top: -1.5rem;
   }
 
@@ -2059,7 +2079,7 @@ input.whats-input[type=text]:focus {
   }
 
   .service-box .box .sub-services {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 
   .heading .blog-title {
@@ -2080,7 +2100,7 @@ input.whats-input[type=text]:focus {
 
   .heading .title-menu {
     font-size: 5rem;
-    margin-top: -2.5rem;
+    margin-top: -2rem;
   }
 
   .heading .sub-menu {
